@@ -12,5 +12,16 @@
 	<!-- För att AJAX ska funka måste JSF-prylar ligga i en <form>. -->
 	<h:body><h:form>
 
+		<p:dataTable value="#{studentBean.studentList}" var="student">
+			<p:column headerText="Name">
+				<h:outputText value="#{student.name}" />
+			</p:column>
+
+			<p:column headerText="Courses">
+				<p:dataTable value="#{student.courseList}" var="course">
+					<p:column><h:outputText value="#{course.coursename}" /></p:column>
+				</p:dataTable>
+			</p:column>
+		</p:dataTable>
 	</h:form></h:body>
 </html>

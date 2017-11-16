@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+	<!-- Vi petar in en tom <h:head> så att JSF/Primefaces kan skjuta in javascript och css. -->
+	<h:head></h:head>
+	<!-- För att AJAX ska funka måste JSF-prylar ligga i en <form>. -->
+	<h:body><h:form>
+
+		<p:dataTable value="#{studentBean.studentList}" var="student">
+			<p:column headerText="Name">
+				<h:outputText value="#{student.name}" />
+			</p:column>
+
+			<p:column headerText="Courses">
+				<p:dataTable value="#{student.courseList}" var="course">
+					<p:column><h:outputText value="#{course.coursename}" /></p:column>
+				</p:dataTable>
+			</p:column>
+		</p:dataTable>
+	</h:form></h:body>
+</html>

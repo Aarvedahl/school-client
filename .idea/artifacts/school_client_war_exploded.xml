@@ -9,6 +9,7 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.1.4" />
           <element id="library" level="project" name="Maven: org.primefaces:primefaces:6.1" />
+          <element id="library" level="project" name="Maven: io.github.aarvedahl:api-classes:1.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">
