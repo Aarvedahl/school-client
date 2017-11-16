@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="school-client:war" />
+      <artifact name="school-client:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae9fdd0-f9df-4104-a621-3b2c1da3754a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_aarvedahl_api_classes_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/login.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/loginerror.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/school-client.war" afterPath="$PROJECT_DIR$/target/school-client.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/school_client_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/school_client_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/school-client.iml" afterPath="$PROJECT_DIR$/school-client.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/StudentBean.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/StudentBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/school-client/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/school-client/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,14 +30,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StudentBean.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StudentBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/StudentBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="44" column="26" lean-forward="false" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginerror.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/loginerror.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -41,8 +83,8 @@
       <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="53" />
+            <state relative-caret-position="204">
+              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -79,8 +121,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/loginerror.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/StudentBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -153,6 +198,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="school-client" type="b2602c69:ProjectViewProjectNode" />
@@ -323,14 +383,12 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="domain" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.1.2" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="HOT_SWAP_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <file path="$PROJECT_DIR$/../SchoolManagement/target/SchoolManagement.war">
           <settings />
         </file>
-        <artifact name="school-client:war">
+        <artifact name="school-client:war exploded">
           <settings />
         </artifact>
       </deployment>
@@ -394,8 +452,9 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="school-client:war" />
+          <artifact name="school-client:war exploded" />
         </option>
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -411,12 +470,12 @@
       <updated>1510756455152</updated>
       <workItem from="1510756459685" duration="1464000" />
       <workItem from="1510774738836" duration="247000" />
-      <workItem from="1510825681228" duration="3062000" />
+      <workItem from="1510825681228" duration="6929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4773000" />
+    <option name="totallyTimeSpent" value="8640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -471,9 +530,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -489,9 +546,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -522,7 +577,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/loginerror.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -532,19 +603,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="53" />
+        <state relative-caret-position="204">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/StudentBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="44" column="26" lean-forward="false" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

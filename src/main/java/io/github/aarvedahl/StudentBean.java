@@ -1,6 +1,6 @@
 package io.github.aarvedahl;
 
-
+import javax.annotation.security.DeclareRoles;
 import javax.faces.view.ViewScoped;
 import javax.inject.Named;
 import javax.ws.rs.client.Client;
@@ -12,6 +12,7 @@ import java.util.List;
 
 @Named
 @ViewScoped
+@DeclareRoles({"admin", "employee"})
 public class StudentBean implements Serializable{
     private static final long serialVersionUID = 1L;
 
