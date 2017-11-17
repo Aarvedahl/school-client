@@ -6,15 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae9fdd0-f9df-4104-a621-3b2c1da3754a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/github/aarvedahl/StudentBean.class" afterPath="$PROJECT_DIR$/target/classes/io/github/aarvedahl/StudentBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/school-client/WEB-INF/classes/io/github/aarvedahl/StudentBean.class" afterPath="$PROJECT_DIR$/target/school-client/WEB-INF/classes/io/github/aarvedahl/StudentBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/StudentBean.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/StudentBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/glassfish-resources.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/glassfish-resources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/school-client/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/school-client/WEB-INF/web.xml" />
-    </list>
+    <list default="true" id="4ae9fdd0-f9df-4104-a621-3b2c1da3754a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -489,12 +481,12 @@
       <workItem from="1510825681228" duration="6961000" />
       <workItem from="1510839305204" duration="619000" />
       <workItem from="1510911757797" duration="1706000" />
-      <workItem from="1510916134876" duration="2852000" />
+      <workItem from="1510916134876" duration="2885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13849000" />
+    <option name="totallyTimeSpent" value="13882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
