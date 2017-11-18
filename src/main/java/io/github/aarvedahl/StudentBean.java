@@ -12,7 +12,7 @@ import java.util.List;
 
 @Named
 @ViewScoped
-@DeclareRoles({"admin"})
+@DeclareRoles({"admin", "employee"})
 public class StudentBean implements Serializable{
     private static final long serialVersionUID = 1L;
 

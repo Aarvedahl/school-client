@@ -6,5 +6,5 @@
         <property name="user" value="edu"/>
         <property name="password" value="edu"/>
     </jdbc-connection-pool>
-    <jdbc-resource jndi-name="jdbc/school-client" pool-name="school-client" enabled="true" />
+    <jdbc-resource jndi-name="java:/jdbc/school-client" pool-name="school-client" enabled="true" />
 </resources>
